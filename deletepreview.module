@@ -1,0 +1,13 @@
+<?php
+
+
+/**
+* Hook form alter
+*/
+function deletepreview_form_alter(&$form, $form_state, $form_id)
+{
+	if(isset($form['buttons']['preview']))
+	{
+		unset ($form['buttons']['preview']);
+	}
+}

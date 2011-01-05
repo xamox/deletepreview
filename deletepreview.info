@@ -1,0 +1,6 @@
+name = Delete Preview Button
+description = Removes the preview button from forms
+core = 6.x
+version = "6.x-1.0"
+
+
